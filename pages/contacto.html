@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contacto </title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,800&display=swap" rel="stylesheet">
+    
+
+</head>
+<body class="body"> 
+    <header class="body__header">
+       
+        <div class="body__header__logo">
+            <a href="../index.html"><img src="../images/pandora-logo.png" alt="logo" height="200 px"> </a>
+        </div>
+
+    </header>
+        <nav class="nav">
+            <ul class="nav-ul">
+                <li class="nav-ul__home">
+                    <a id="barra" href="../index.html">Home</a>
+                </li>
+                <li class="nav-ul__home">
+                    <a id="barra" href="../pages/nuestro-menu.html">Nuestro Menu</a>
+                </li>
+                <li class="nav-ul__home">
+                    <a id="barra" href="../pages/eventos.html">Eventos</a>
+                </li>
+                <li class="nav-ul__home">
+                    <a id="barra" href="../pages/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <form class="formulario" action="" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Datos</legend>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Inserte Nombre"/>
+        </div>
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" placeholder="Inserte Apellido"/>
+        </div>
+        <div>
+            <label for="celular">Celular:</label>
+            <input type="text" name="celular" placeholder="Inserte numero sin 0 ni 15">
+        </div>
+        <div>
+            <label for="email">E-Mail:</label>
+            <input type="text" name="email" placeholder="ejemplo@xxxmail.com"/>
+        </div>
+        </fieldset>
+        <fieldset>
+        <legend>Consulta</legend>
+        <div>
+            <label for="tipo de consulta">Tipo:</label>
+            <select name="tipo de consulta">
+                <option value="Reserva">Reserva</option>
+                <option value="Evento-Privado">Evento Privado</option>
+                <option value="Contrataciones">Contrataciones</option>
+                <option value="Catering">Catering</option>
+            </select>
+        </div>
+        <div>
+            <label for="consulta">Consulta:</label>
+            <textarea rows="10" cols="10" name="consulta" placeholder="Ingrese consulta aqui"></textarea>
+        </div>
+        </fieldset>
+        <fieldset>
+        <div>
+        Acepta terminos y condiciones
+        <input type="checkbox" name="aceptar" value="1">
+        </div>
+        <div>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Enviar Formulario"/>
+        </div>  
+       
+        </fieldset>
+    </form>
+        
+   
+    <footer>
+        <div class="div-RedesSociales">
+            <a href="https://www.facebook.com/Pandora-Resto-Bar-563645970326266/?ref=page_internal"><img src="../images/facebook.png" alt="Facebook" height="40px"></a>
+            <a href="https://www.instagram.com/pandorabar__/"><img src="../images/instagram.png" alt="Instagram" height="40px"></a>
+            <a href=""> <img src="../images/twitter.png" alt="twitter" height="40px"></a>
+            <a href="https://wa.me/543492597289"> <img src="../images/whatsapp.png" alt="Whatsapp" height="40px"></a>
+
+        <h3 id="copyright">©Copyright by Fernan Leurino</h3>  
+    </footer>
+</body>
+</html>
